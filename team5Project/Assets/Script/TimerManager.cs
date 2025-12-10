@@ -30,10 +30,10 @@ public class TimerManager : MonoBehaviour
     private void HandleScoreChanged(int score)
     {
         Debug.Log("점수 추가");
-        if (score >= 70) 
-        {
-            LoadHappyEndingScene();
-        }
+        //if (score >= 70) 
+        //{
+        //    LoadHappyEndingScene();
+        //}
     }
     void Update()
     {
